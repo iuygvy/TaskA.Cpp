@@ -1,0 +1,22 @@
+#include <iostream>
+void Emplace(char*, int*);
+void Insert(char*, int*);
+void Erase(char*, int*);
+void Print(int, char*);
+bool Emptiness(int);
+bool Nonempty(int);
+bool Member(char*, int);
+bool Disjoint(int, int);
+bool Conjunctive(int, int);
+bool Inclusion(int, int);
+bool Equality(int, int);
+void Union(int, int, int*);
+void Intersection(int, int, int*);
+void Symmetric(int, int, int*);
+void Difference(int, int, int*);
+void Complement(int, int*);
+int Cardinality(int);
+bool LessThen(int, int);
+bool LessEqual(int, int);
+bool GreaterEqual(int, int);
+bool GreaterThen(int, int);
